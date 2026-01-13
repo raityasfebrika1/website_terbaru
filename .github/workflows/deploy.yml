@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Deploy website3 to server via SSH
+      - name: Deploy website_baru to server via SSH
         uses: appleboy/ssh-action@v1.0.3
         with:
           host: ${{ secrets.IP_SERVER }}
